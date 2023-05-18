@@ -5,7 +5,7 @@
 > key: value로 구성된 property를 넣을 수 있음.
 
 - {} 중괄호로 선언 = 객체 리터럴(object literal)
-- key는 string, value에는 모든 자료형 사용 가능
+- key는 string, 숫자, 문자열, 심볼, value에는 모든 자료형 사용 가능
 - 프로퍼티 추가, 삭제 가능
 - 점 표기법으로 프로퍼티 값 읽기 가능
 
