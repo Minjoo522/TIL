@@ -6,9 +6,10 @@
 
 ### JavaScript
 
-- [1. JavaScript 기본 개념](https://github.com/Minjoo522/TIL/blob/main/JavaScript/01_js_fundamental_concept.md)
-- [2. 변수](https://github.com/Minjoo522/TIL/blob/main/JavaScript/02_variable.md)
-- [3. 자료형 - 원시 데이터](https://github.com/Minjoo522/TIL/blob/main/JavaScript/03_data_type.md)
-- [4. Object(객체)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/04_object.md)
-- [5. Operators(연산자)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/05_operators.md)
-- [6. 조건문(Conditional Statement)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/06_conditional_statement.md)
+1. [JavaScript 기본 개념](https://github.com/Minjoo522/TIL/blob/main/JavaScript/01_js_fundamental_concept.md)
+2. [변수](https://github.com/Minjoo522/TIL/blob/main/JavaScript/02_variable.md)
+3. [자료형 - 원시 데이터](https://github.com/Minjoo522/TIL/blob/main/JavaScript/03_data_type.md)
+4. [Object(객체)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/04_object.md)
+5. [Operators(연산자)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/05_operators.md)
+6. [조건문(Conditional Statement)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/06_conditional_statement.md)
+7. [반복문(Loop Statement)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/08_loop_statement.md)
