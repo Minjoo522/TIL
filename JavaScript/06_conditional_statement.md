@@ -35,10 +35,10 @@ console.log(isPass); // Fail
 
 ## switch
 
-switch (변수) { case 조건: break; ... (default:)}<br>
+switch (변수) { case 조건: break; ... (default:)}
 
-- 복수의 if 조건문은 switch문으로 바꿀 수 있다.<br>
-- defalt는 if문의 else와 같음(없어도 됨)<br>
+- 복수의 if 조건문은 switch문으로 바꿀 수 있다.
+- defalt는 if문의 else와 같음(없어도 됨)
 - 여러개의 case문을 묶을 수 있음
 
 ```javascript
