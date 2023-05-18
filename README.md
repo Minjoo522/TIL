@@ -13,3 +13,4 @@
 5. [Operators(연산자)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/05_operators.md)
 6. [조건문(Conditional Statement)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/06_conditional_statement.md)
 7. [반복문(Loop Statement)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/08_loop_statement.md)
+8. [함수](https://github.com/Minjoo522/TIL/blob/main/JavaScript/10_functions.md)
