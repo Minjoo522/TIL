@@ -1,8 +1,8 @@
 # 조건문(Conditional Statement)
 
-- [1. if ... else](#ifelse)
-- [2. 삼항 연산자(Ternary operator)](#삼항-연산자ternary-operator)
-- [3. switch](#switch)
+- [if ... else](#ifelse)
+- [삼항 연산자(Ternary operator)](#삼항-연산자ternary-operator)
+- [switch](#switch)
 
 ## if...else
 
