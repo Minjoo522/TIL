@@ -15,3 +15,4 @@
 7. [반복문(Loop Statement)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/08_loop_statement.md)
 8. [함수](https://github.com/Minjoo522/TIL/blob/main/JavaScript/10_functions.md)
 9. [Classes](https://github.com/Minjoo522/TIL/blob/main/JavaScript/11_class.md)
+10. [내장 객체](https://github.com/Minjoo522/TIL/blob/main/JavaScript/12_built_in_object.md)
