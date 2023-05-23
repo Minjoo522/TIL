@@ -17,6 +17,8 @@ div {
 
 box-sizing을 설정하지 않았을 때, 박스의 가로, 세로 길이는 **지정해 준 200px에 border : 20px에 padding : 20px을 더한** 240px이 된다.
 
+<hr>
+
 - border-box : width 와 height 속성이 안쪽 여백과 테두리는 포함하고, 바깥 여백은 포함하지 않음
 
 ```css
