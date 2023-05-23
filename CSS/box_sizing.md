@@ -13,7 +13,7 @@ div {
 }
 ```
 
-<img src="./img/1.png" width="150px" />
+<img src="./img/1.png" width="300px" />
 
 box-sizing을 설정하지 않았을 때, 박스의 가로, 세로 길이는 **지정해 준 200px에 border : 20px에 padding : 20px을 더한** 240px이 된다.
 
@@ -29,6 +29,6 @@ div {
 }
 ```
 
-<img src="./img/2.png" width="150px" />
+<img src="./img/2.png" width="300px" />
 
 box-sizing: border-box;로 설정하면 **div 박스 자체의 크기는 변하지 않고** padding: 20px과 bordxer: 20px이 박스 가로, 세로 200px 안에 포함된다.
