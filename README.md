@@ -20,6 +20,7 @@
 12. [Iteration, Generator, Spread, 구조 분해 할당](https://github.com/Minjoo522/TIL/blob/main/JavaScript/12_iteration.md)
 13. [Map & Set](https://github.com/Minjoo522/TIL/blob/main/JavaScript/13_map_set.md)
 14. [Symbol](https://github.com/Minjoo522/TIL/blob/main/JavaScript/14_symbol.md)
+15. [Module](https://github.com/Minjoo522/TIL/blob/main/JavaScript/15_module.md)
 
 ### CSS
 
