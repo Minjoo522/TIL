@@ -56,4 +56,5 @@
 - Symbol.keyFor(symbol) : 전역 심볼의 이름을 반환 / 전역 심볼이 아닌 경우 undefined 반환
   ```javascript
   console.log(Symbol.keyFor(symbolFor1)); // 1
+  console.log(Symbol.keyFor(sym1)); // undefined
   ```
