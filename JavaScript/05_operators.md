@@ -5,6 +5,8 @@
   - [단항 연산자](#단항-연산자unary-operators)
 - [논리 연산자](#논리-연산자logical-operators)
 - [비교 연산자](#비교-연산자comparison-operators)
+- [옵셔널 체이닝 ?.](#옵셔널-체이닝-연산자optional-chaining-operator)
+- [Nullish 병합 연산자 ??](#nullish-병합-연산자nullish-coalescing-operator)
 
 ## 할당 연산자(Assignment operators)
 
@@ -74,7 +76,7 @@ OR(||), AND(&&), !(NOT)
 인수 중 하나라도 true이면 true 반환, 아니면 false 반환
 
 - 왼쪽 피연산자부터 평가
-- 피연산자는 불린형으로 변환, 값이 true이면 연산을 멈추고 **변환 전 원래 값** 반환
+- 피연산자는 불린형으로 변환, 값이 true이면 평가를 멈추고(단락 평가) **변환 전 원래 값** 반환
 - 모두 false인 경우 마지막 값 반환
 
 ```javascript
@@ -88,6 +90,7 @@ console.log(undefined || null || 0); // 0(모두 false, 마지막 값 반환)
 
 - 값이 false이면 해당 피연산자의 **변환 전 원래 값** 반환
 - 모두 true인 경우 마지막 값 반환
+- 단락 평가 : 값이 false인 피연산자를 만나면 평가를 종료하고 해당 연산자의 원래 값을 반환한다
 
 ```javascript
 console.log(1 && 2 && 3); // 3
@@ -129,3 +132,49 @@ operator|description
 \>=|크거나 같음
 <|작음
 <=|작거나 같음
+
+## 옵셔널 체이닝 연산자(Optional Chaining Operator) ?.
+
+- 존재하지 않는 요소에 접근 할 때 에러 발생 대신에 undefiend 반환
+- 참조가 유효할 때 해당 값 반환
+- && 연산자보다 더 짧고 간단한 표현식 생성 가능
+- 단락 평가(short-circuit) : ?. **앞**의 평가 대상이 undefined나 null이면 평가를 멈추고 undefined 반환
+
+```javascript
+// 참조가 유효하지 않은 경우 에러 반환
+
+let food;
+const foodPrice = food.price;
+// TypeError: Cannot read properties of undefined (reading 'price')
+```
+
+```javascript
+// ?. 사용시 undefined 반환
+const foodPrice = food?.price;
+console.log(foodPrice);
+```
+
+```javascript
+// && 연산자보다 짧게 표현 가능
+let food = { name: '🍱', price: 5, ingredient: { name: '🍤' } };
+
+const foodIngredientName = food && food.ingredient && food.ingredient.name;
+const foodIngredientName2 = food?.ingredient?.name;
+
+console.log(foodIngredientName); // 🍤
+console.log(foodIngredientName2); // 🍤
+```
+
+## Nullish 병합 연산자(Nullish Coalescing Operator) ??
+
+- 왼쪽 피연산자가 null, undefined인 경우 오른쪽 피연산자 반환, 아니면 왼쪽 피연산자 반환
+- 단락 평가 : 왼쪽 피연산자가 null, undefined이 아니라고 평가되면 오른쪽 평가하지 않음
+- || 연산자는 왼쪽 피연산자의 값이 falsy(0,'',NaN...)한 경우 오른쪽 피연산자 반환, ?? 는 **null, undefined**인 경우만!
+
+```javascript
+// ?? 는 null, undefined인 경우에만 오른쪽 피연산자를 반환함
+
+let count = 0;
+console.log(count || '값이 없습니다'); // 값이 없습니다
+console.log(count ?? '값이 없습니다'); // 0
+```
