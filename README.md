@@ -28,4 +28,5 @@
 
 ### Python
 
-- [Data Type](https://github.com/Minjoo522/TIL/blob/main/Python/01_data-type.md)
+1. [Data Type](https://github.com/Minjoo522/TIL/blob/main/Python/01_data-type.md)
+2. [변수](https://github.com/Minjoo522/TIL/blob/main/Python/02_variable.md)
