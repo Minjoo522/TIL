@@ -25,3 +25,7 @@
 ### CSS
 
 - [box-sizing : content-box, border-box;](https://github.com/Minjoo522/TIL/blob/main/CSS/box_sizing.md)
+
+### Python
+
+- [Data Type](https://github.com/Minjoo522/TIL/blob/main/Python/01_data-type.md)
