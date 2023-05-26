@@ -32,3 +32,4 @@
 2. [변수](https://github.com/Minjoo522/TIL/blob/main/Python/02_variable.md)
 3. [Operator](https://github.com/Minjoo522/TIL/blob/main/Python/03_operator.md)
 4. [List](https://github.com/Minjoo522/TIL/blob/main/Python/04_list.md)
+5. [Dictionary](https://github.com/Minjoo522/TIL/blob/main/Python/05_%20dictionary.md)
