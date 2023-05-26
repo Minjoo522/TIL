@@ -33,3 +33,4 @@
 3. [Operator](https://github.com/Minjoo522/TIL/blob/main/Python/03_operator.md)
 4. [List](https://github.com/Minjoo522/TIL/blob/main/Python/04_list.md)
 5. [Dictionary](https://github.com/Minjoo522/TIL/blob/main/Python/05_%20dictionary.md)
+6. [조건문](https://github.com/Minjoo522/TIL/blob/main/Python/06_conditional.md)
