@@ -88,3 +88,16 @@ print("name" in panda) # True
 print(panda.get("name")) # 🐼
 print(panda.get("home")) # None
 ```
+
+## (키, 값) 조합 출력하기 : items()
+
+```python
+# 딕셔너리명.items()
+user = {
+    "name" : "minjoo",
+    "age" : 20
+}
+
+print(user.items())
+# dict_items([('name', 'minjoo'), ('age', 20)])
+```

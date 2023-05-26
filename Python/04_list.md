@@ -165,7 +165,7 @@ print(max(numbers)) # 5
 print(sum(numbers)) # 15
 ```
 
-### 리스트 뒤집기 : reverse()
+### 리스트 뒤집기 : reverse(), reversed()
 
 ```python
 # 리스트명.reverse()
@@ -173,6 +173,18 @@ numbers = [1, 2, 3, 4, 5]
 
 numbers.reverse()
 print(numbers)
+# [5, 4, 3, 2, 1]
+```
+
+```python
+# reversed(리스트명)
+numbers = [0, 1, 2, 3, 4]
+
+print(list(reversed(numbers)))
+# [4, 3, 2, 1, 0]
+
+# reversed()는 제너레이터 : 필요에 따라 하나씩 값 반환
+# 반복문에서 사용하면 리스트를 뒤집어서 하나씩 꺼낼 수 있음
 ```
 
 ### 요소로 인덱스 찾기 : index()
@@ -191,4 +203,13 @@ print(animals.index('🐼')) # 0
 animals = ['🐼', '🐼', '🐶', '🐰']
 
 print(animals.count('🐼')) # 2
+```
+
+### (인덱스, 요소) 조합 출력 : enumerate()
+
+```python
+numbers = [1, 2, 3, 4, 5]
+
+print(list(enumerate(numbers)))
+# [(0, 1), (1, 2), (2, 3), (3, 4), (4, 5)]
 ```
