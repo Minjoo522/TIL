@@ -23,7 +23,7 @@
 15. [Module](https://github.com/Minjoo522/TIL/blob/main/JavaScript/15_module.md)
 16. [try...catch(에러 핸들링)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/16_try_catch.md)
 
-### <img src="./img/python.jpeg" width="15px" /> Python
+### <img src="./img/python.png" width="15px" /> Python
 
 1. [Data Type](https://github.com/Minjoo522/TIL/blob/main/Python/01_data-type.md)
 2. [변수](https://github.com/Minjoo522/TIL/blob/main/Python/02_variable.md)
