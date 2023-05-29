@@ -23,10 +23,6 @@
 15. [Module](https://github.com/Minjoo522/TIL/blob/main/JavaScript/15_module.md)
 16. [try...catch(에러 핸들링)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/16_try_catch.md)
 
-### CSS
-
-- [box-sizing : content-box, border-box;](https://github.com/Minjoo522/TIL/blob/main/CSS/box_sizing.md)
-
 ### Python
 
 1. [Data Type](https://github.com/Minjoo522/TIL/blob/main/Python/01_data-type.md)
@@ -36,3 +32,7 @@
 5. [Dictionary](https://github.com/Minjoo522/TIL/blob/main/Python/05_%20dictionary.md)
 6. [조건문](https://github.com/Minjoo522/TIL/blob/main/Python/06_conditional.md)
 7. [반복문](https://github.com/Minjoo522/TIL/blob/main/Python/07_loop.md)
+
+### CSS
+
+- [box-sizing : content-box, border-box;](https://github.com/Minjoo522/TIL/blob/main/CSS/box_sizing.md)
