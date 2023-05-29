@@ -33,6 +33,7 @@
 6. [조건문](https://github.com/Minjoo522/TIL/blob/main/Python/06_conditional.md)
 7. [반복문](https://github.com/Minjoo522/TIL/blob/main/Python/07_loop.md)
 8. [함수](https://github.com/Minjoo522/TIL/blob/main/Python/08_function.md)
+9. [튜플](https://github.com/Minjoo522/TIL/blob/main/Python/09_tuple.md)
 
 ### CSS
 
