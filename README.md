@@ -1,10 +1,10 @@
-# Today I Learned
+# 📚 Today I Learned
 
-- 하루 동안 학습한 내용을 조금이라도 정리하여 기록합니다.
+- 하루 동안 학습한 내용을 조금이라도 정리하여 기록합니다. 📝
 
 ## Index
 
-### JavaScript
+### <img src="./img/js.png" width="15px" /> JavaScript
 
 1. [JavaScript 기본 개념 📙](https://github.com/Minjoo522/TIL/blob/main/JavaScript/01_js_fundamental_concept.md)
 2. [변수](https://github.com/Minjoo522/TIL/blob/main/JavaScript/02_variable.md)
@@ -23,7 +23,7 @@
 15. [Module](https://github.com/Minjoo522/TIL/blob/main/JavaScript/15_module.md)
 16. [try...catch(에러 핸들링)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/16_try_catch.md)
 
-### Python
+### <img src="./img/python.jpeg" width="15px" /> Python
 
 1. [Data Type](https://github.com/Minjoo522/TIL/blob/main/Python/01_data-type.md)
 2. [변수](https://github.com/Minjoo522/TIL/blob/main/Python/02_variable.md)
@@ -36,6 +36,6 @@
 9. [튜플](https://github.com/Minjoo522/TIL/blob/main/Python/09_tuple.md)
 10. [파일 읽고 쓰기](https://github.com/Minjoo522/TIL/blob/main/Python/10_file_reading_writing.md)
 
-### CSS
+### <img src="./img/css.png" width="15px" /> CSS
 
 - [box-sizing : content-box, border-box;](https://github.com/Minjoo522/TIL/blob/main/CSS/box_sizing.md)
