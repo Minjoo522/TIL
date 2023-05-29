@@ -21,6 +21,7 @@
 13. [Map & Set](https://github.com/Minjoo522/TIL/blob/main/JavaScript/13_map_set.md)
 14. [Symbol](https://github.com/Minjoo522/TIL/blob/main/JavaScript/14_symbol.md)
 15. [Module](https://github.com/Minjoo522/TIL/blob/main/JavaScript/15_module.md)
+16. [try...catch(에러 핸들링)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/16_try_catch.md)
 
 ### CSS
 
