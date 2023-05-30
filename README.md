@@ -4,7 +4,7 @@
 
 ## Index
 
-### <img src="./img/js.png" width="15px" /> JavaScript
+### <img src="./img/js.pmg" width="15px" /> JavaScript
 
 1. [JavaScript 기본 개념 📙](https://github.com/Minjoo522/TIL/blob/main/JavaScript/01_js_fundamental_concept.md)
 2. [변수](https://github.com/Minjoo522/TIL/blob/main/JavaScript/02_variable.md)
