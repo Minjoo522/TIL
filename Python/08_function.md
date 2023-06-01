@@ -83,12 +83,12 @@ print(c) # 6, 순서 다르게도 입력 가능
 - return 뒤에 자료를 입력시, 해당 자료를 가지고 리턴
 
 ```python
-def printNumber():
+def print_number():
     print("1️⃣")
     return
     print("2️⃣")
 
-printNumber() # 1️⃣만 출력됨, return = 함수를 끝내는 것이기 때문에
+print_number() # 1️⃣만 출력됨, return = 함수를 끝내는 것이기 때문에
 ```
 
 ```python
@@ -126,8 +126,8 @@ print(c) # 4
 
 # 위와 아래는 동일한 일을 함
 
-doubleLambda = lambda a : a * 2
-c = doubleLambda(2)
+double_lambda = lambda a : a * 2
+c = double_lambda(2)
 print(c) # 4
 ```
 
@@ -135,7 +135,7 @@ print(c) # 4
 
 ```python
 numbers = [1, 20, 3, 6, 10]
-OverFive = filter(lambda a : a > 5, numbers)
+over_five = filter(lambda a : a > 5, numbers)
 
-print(list(OverFive)) # [20, 6, 10]
+print(list(over_five)) # [20, 6, 10]
 ```
