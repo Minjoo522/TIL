@@ -38,6 +38,7 @@
 11. [제너레이터(Generator)](https://github.com/Minjoo522/TIL/blob/main/Python/11_generator.md)
 12. [예외 처리(try...except)](https://github.com/Minjoo522/TIL/blob/main/Python/12_try_except.md)
 13. [클래스](https://github.com/Minjoo522/TIL/blob/main/Python/13_class.md)
+14. [Set](https://github.com/Minjoo522/TIL/blob/main/Python/14_set.md)
 
 ### <img src="./img/css.png" width="15px" /> CSS
 
