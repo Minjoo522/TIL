@@ -114,7 +114,7 @@ fruits = [
 print("이름", "총 가격", sep="\t")
 for fruit in fruits:
     # 인스턴스.메소드() 형태가 아닌, str(객체) 형태로 사용 가능
-    print(str(fruit))
+    print(fruit)
 ```
 
 ### 비교 매직 메소드
