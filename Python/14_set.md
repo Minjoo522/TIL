@@ -11,6 +11,7 @@
 - [연산자](#연산자)
 - [연산 메소드](#연산-메소드)
 - [기타 메소드](#기타-메소드)
+- [set comprehensions](#set-comprehensions)
 
 ## set 특징
 
@@ -156,4 +157,19 @@ print(b.issubset(a)) # True
 print(a.issuperset(b)) # True
 print(a.isdisjoint(b)) # False, 교집합이 있음
 print(a.isdisjoint(c)) # True, 교집합이 없음
+```
+
+## set comprehensions
+
+- list comprehensions의 괄호를 {}로 변경하면 됨
+
+```python
+a = {
+    number * number
+    for number in range(0, 10)
+    if number % 2 == 0
+}
+
+print(type(a)) # <class 'set'>
+print(a) # {0, 64, 4, 36, 16}
 ```
