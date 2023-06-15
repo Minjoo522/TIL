@@ -38,6 +38,14 @@ print("\"Hello!\"\n👋\t🐼")
 # 👋      🐼
 ```
 
+### r'문자열'
+
+- raw string / 이스케이프 문자 의미를 무시하고 그대로 출력
+
+```python
+print(r'Hello\World') # Hello\World
+```
+
 ### 여러줄 문자열
 
 ```python
