@@ -1,5 +1,7 @@
 # Method
 
+- [swapcase()](#swapcase)
+
 ## swapcase()
 
 - 영문 대소문자 상호 전환 메드

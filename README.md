@@ -39,6 +39,7 @@
 12. [예외 처리(try...except)](https://github.com/Minjoo522/TIL/blob/main/Python/12_try_except.md)
 13. [클래스](https://github.com/Minjoo522/TIL/blob/main/Python/13_class.md)
 14. [Set](https://github.com/Minjoo522/TIL/blob/main/Python/14_set.md)
+15. [Method](https://github.com/Minjoo522/TIL/blob/main/Python/15_method.md)
 
 ### <img src="./img/css.png" width="15px" /> CSS
 
