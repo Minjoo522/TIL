@@ -41,6 +41,7 @@ print("\"Hello!\"\n👋\t🐼")
 ### r'문자열'
 
 - raw string / 이스케이프 문자 의미를 무시하고 그대로 출력
+- escape 문자를 많이 출력해야하는 경우 사용
 
 ```python
 print(r'Hello\World') # Hello\World
