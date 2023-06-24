@@ -46,6 +46,7 @@
 
 - [box-sizing : content-box, border-box;](https://github.com/Minjoo522/TIL/blob/main/CSS/box_sizing.md)
 - [Flexbox](https://github.com/Minjoo522/TIL/blob/main/CSS/flexbox.md)
+- [Grid](https://github.com/Minjoo522/TIL/blob/main/CSS/grid.md)
 
 ### <img src="./img/git.png" width="15px" /> Git
 
