@@ -42,6 +42,14 @@
 15. [Method](https://github.com/Minjoo522/TIL/blob/main/Python/15_method.md)
 16. [이터레이터](https://github.com/Minjoo522/TIL/blob/main/Python/16_iterator.md)
 
+### <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/flask-1024.png" width="15px" />Flask
+
+1. [시작](https://github.com/Minjoo522/TIL/blob/main/Flask/01_start.md)
+2. [routing](https://github.com/Minjoo522/TIL/blob/main/Flask/02_routing.md)
+3. [html escaping](https://github.com/Minjoo522/TIL/blob/main/Flask/03_html_with_flask.md)
+4. [http methods](https://github.com/Minjoo522/TIL/blob/main/Flask/04_http_methods.md)
+5. [redirect](https://github.com/Minjoo522/TIL/blob/main/Flask/05_redirect.md)
+
 ### <img src="./img/css.png" width="15px" /> CSS
 
 - [box-sizing : content-box, border-box;](https://github.com/Minjoo522/TIL/blob/main/CSS/box_sizing.md)
