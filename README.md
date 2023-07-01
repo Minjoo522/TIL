@@ -12,7 +12,7 @@
 4. <img src="./img/css.png" width="15px" /> [CSS](#css)
 5. <img src="./img/git.png" width="15px" /> [Git](#git)
 
-### <img src="./img/js.png" width="15px" /> JavaScript
+## <img src="./img/js.png" width="15px" /> JavaScript
 
 1. [JavaScript 기본 개념 📙](https://github.com/Minjoo522/TIL/blob/main/JavaScript/01_js_fundamental_concept.md)
 2. [변수](https://github.com/Minjoo522/TIL/blob/main/JavaScript/02_variable.md)
@@ -31,7 +31,7 @@
 15. [Module](https://github.com/Minjoo522/TIL/blob/main/JavaScript/15_module.md)
 16. [try...catch(에러 핸들링)](https://github.com/Minjoo522/TIL/blob/main/JavaScript/16_try_catch.md)
 
-### <img src="./img/python.png" width="15px" /> Python
+## <img src="./img/python.png" width="15px" /> Python
 
 1. [Data Type](https://github.com/Minjoo522/TIL/blob/main/Python/01_data-type.md)
 2. [변수](https://github.com/Minjoo522/TIL/blob/main/Python/02_variable.md)
@@ -50,7 +50,7 @@
 15. [Method](https://github.com/Minjoo522/TIL/blob/main/Python/15_method.md)
 16. [이터레이터](https://github.com/Minjoo522/TIL/blob/main/Python/16_iterator.md)
 
-### <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/flask-1024.png" width="15px" />Flask
+## <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/flask-1024.png" width="15px" />Flask
 
 1. [시작](https://github.com/Minjoo522/TIL/blob/main/Flask/01_start.md)
 2. [routing](https://github.com/Minjoo522/TIL/blob/main/Flask/02_routing.md)
@@ -58,12 +58,12 @@
 4. [http methods](https://github.com/Minjoo522/TIL/blob/main/Flask/04_http_methods.md)
 5. [redirect](https://github.com/Minjoo522/TIL/blob/main/Flask/05_redirect.md)
 
-### <img src="./img/css.png" width="15px" /> CSS
+## <img src="./img/css.png" width="15px" /> CSS
 
 - [box-sizing : content-box, border-box;](https://github.com/Minjoo522/TIL/blob/main/CSS/box_sizing.md)
 - [Flexbox](https://github.com/Minjoo522/TIL/blob/main/CSS/flexbox.md)
 - [Grid](https://github.com/Minjoo522/TIL/blob/main/CSS/grid.md)
 
-### <img src="./img/git.png" width="15px" /> Git
+## <img src="./img/git.png" width="15px" /> Git
 
 - [git 명령어](https://github.com/Minjoo522/TIL/blob/1bf3dfde5bc93fde95d9a2310c8b267d42bf5d98/git/1_git_command.md)
