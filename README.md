@@ -4,7 +4,7 @@
 
 ## Index
 
-<span style="color:pink">**✨ 바로 가기**</span>
+**✨ 바로 가기**
 
 1. <img src="./img/js.png" width="15px" /> [JavaScript](#javascript)
 2. <img src="./img/python.png" width="15px" /> [Python](#python)
