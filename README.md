@@ -4,6 +4,14 @@
 
 ## Index
 
+<span style="color:pink">**✨ 바로 가기**</span>
+
+1. <img src="./img/js.png" width="15px" /> [JavaScript](#javascript)
+2. <img src="./img/python.png" width="15px" /> [Python](#python)
+3. <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/flask-1024.png" width="15px" /> [Flask](#flask)
+4. <img src="./img/css.png" width="15px" /> [CSS](#css)
+5. <img src="./img/git.png" width="15px" /> [Git](#git)
+
 ### <img src="./img/js.png" width="15px" /> JavaScript
 
 1. [JavaScript 기본 개념 📙](https://github.com/Minjoo522/TIL/blob/main/JavaScript/01_js_fundamental_concept.md)
