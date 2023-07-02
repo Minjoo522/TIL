@@ -16,3 +16,7 @@ def index():
     </html>
     '''
 ```
+
+# jinja template
+
+- {{ form.subject(class="form-control") }} : 이런 식으로 클래스 지정 가능
