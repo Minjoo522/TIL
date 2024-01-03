@@ -1,0 +1,18 @@
+# Index
+
+1. [Data Type](https://github.com/Minjoo522/TIL/blob/main/Python/01_data-type.md)
+2. [변수](https://github.com/Minjoo522/TIL/blob/main/Python/02_variable.md)
+3. [Operator](https://github.com/Minjoo522/TIL/blob/main/Python/03_operator.md)
+4. [List](https://github.com/Minjoo522/TIL/blob/main/Python/04_list.md)
+5. [Dictionary](https://github.com/Minjoo522/TIL/blob/main/Python/05_%20dictionary.md)
+6. [조건문](https://github.com/Minjoo522/TIL/blob/main/Python/06_conditional.md)
+7. [반복문](https://github.com/Minjoo522/TIL/blob/main/Python/07_loop.md)
+8. [함수](https://github.com/Minjoo522/TIL/blob/main/Python/08_function.md)
+9. [튜플](https://github.com/Minjoo522/TIL/blob/main/Python/09_tuple.md)
+10. [파일 읽고 쓰기](https://github.com/Minjoo522/TIL/blob/main/Python/10_file_reading_writing.md)
+11. [제너레이터(Generator)](https://github.com/Minjoo522/TIL/blob/main/Python/11_generator.md)
+12. [예외 처리(try...except)](https://github.com/Minjoo522/TIL/blob/main/Python/12_try_except.md)
+13. [클래스](https://github.com/Minjoo522/TIL/blob/main/Python/13_class.md)
+14. [Set](https://github.com/Minjoo522/TIL/blob/main/Python/14_set.md)
+15. [Method](https://github.com/Minjoo522/TIL/blob/main/Python/15_method.md)
+16. [이터레이터](https://github.com/Minjoo522/TIL/blob/main/Python/16_iterator.md)
