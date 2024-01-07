@@ -4,7 +4,7 @@
 
 # Interpreter vs Compiler
 
-<h2 style="background-color:#FFC2B5;border-radius: 5px;">Interpreter</h2>
+## Interpreter
 
 > 프로그래밍 언어 소스를 실행 시마다 한 줄씩 번역(동시 통역)
 
@@ -27,7 +27,7 @@
 
 # 동적 타입 언어 vs 정적 타입 언어
 
-<h2 style="background-color:#FFC2B5;border-radius: 5px;">동적 타입 언어(Dynamic Typed Language)</h2>
+## 동적 타입 언어(Dynamic Typed Language)
 
 > 런타임 시 변수의 타입이 결정되는 언어
 
