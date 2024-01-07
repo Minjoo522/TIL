@@ -1,7 +1,5 @@
 # 📚 Today I Learned
 
-- 하루 동안 학습한 내용을 기록합니다.
-
 ## 🗄️ Index
 
 - [JAVA](https://github.com/Minjoo522/TIL/tree/main/JAVA)
