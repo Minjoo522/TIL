@@ -22,3 +22,9 @@ git commit -m "first commit"
 git commit -a -m "message"
 git commit -am "message"
 ```
+
+# 커밋 메시지 변경
+
+```bash
+git commit --amend -m "변경할 메시지"
+```
