@@ -25,3 +25,5 @@
 | cmd + n            | getter, setter, 생성자 자동 생성               |
 | ctrl + r           | run                                            |
 | ctrl + g           | 선택된 단어 찾아가며 하나씩 선택(vscode cmd+d) |
+| cmd + opt + v      | 변수 설정                                      |
+| cmd + shift + t    | 테스트 케이스 클래스 자동 생성                 |
