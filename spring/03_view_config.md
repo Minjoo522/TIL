@@ -11,7 +11,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@Controller
+@Controller // 웹 애플리케이션 첫 번째 진입점
 public class HelloController {
     @GetMapping("hello")
     public String hello(Model model) {
@@ -23,6 +23,7 @@ public class HelloController {
 ```
 
 ```html
+<!-- 📁 templates/hello.html -->
 <!DOCTYPE html>
 <!--타임리프 템플릿 사용-->
 <html xmlns:th="http://www.thymeleaf.org">
@@ -31,6 +32,7 @@ public class HelloController {
     <title>Hello</title>
   </head>
   <body>
+    <!-- th == 위에서 선언한 템플릿-->
     <p th:text="'안녕하세요. ' + ${data}">안녕하세요. 손님</p>
   </body>
 </html>
@@ -41,5 +43,5 @@ public class HelloController {
    - spring이 model을 만들어서 메서드에 넣어줌
    - model에 필요한 attribute 넣음
 3. resource에서 return 값과 매칭되는 html 파일을 찾아서 렌더링
-   - 컨트롤러에서 리턴 값으로 문자 반환 ➡️ viewResolver가 화면 찾아 처리
+   - 컨트롤러에서 리턴 값으로 문자 반환 ➡️ `viewResolver`가 화면 찾아 처리
    - `resources:templates/` + {ViewName} + `.html`
