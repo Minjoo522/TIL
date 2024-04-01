@@ -45,3 +45,7 @@ public class HelloController {
 3. resource에서 return 값과 매칭되는 html 파일을 찾아서 렌더링
    - 컨트롤러에서 리턴 값으로 문자 반환 ➡️ `viewResolver`가 화면 찾아 처리
    - `resources:templates/` + {ViewName} + `.html`
+
+---
+
+- `spring-boot-devtools` 라이브러리를 추가하면 html 파일을 컴파일만 해주면 서버 재시작 없이 View 파일 변경이 가능하다.
