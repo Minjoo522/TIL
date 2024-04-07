@@ -5,6 +5,7 @@
 ## Autowired
 
 - 자동 연결
+- MemberController가 생성될 때 spring bean에 있는 MemberService를 가져다가 주입해 줌
 
 ```java
 @Controller
@@ -13,6 +14,7 @@ public class MemberController {
 
     @Autowired
     // memberService를 spring container와 연결해 줌
+    // 단, 얘만 해줘서는 안되고 다른 부분에서도 애너테이션 필요
     public MemberController(MemberService memberService) {
         this.memberService = memberService;
     }
@@ -22,6 +24,7 @@ public class MemberController {
 ## Service
 
 ```java
+// Service 달아주기
 @Service
 public class MemberService {
     private final MemberRepository memberRepository;
@@ -38,6 +41,7 @@ public class MemberService {
 ## Repository
 
 ```java
+// Repository 달아주기
 @Repository
 public class MemoryMemberRepository implements MemberRepository
 ```
@@ -78,3 +82,24 @@ public class MemoryMemberRepository implements MemberRepository
       }
   }
   ```
+
+- 필드 주입도 가능하지만 추천하지 않음
+  - 애플리케이션 조립 시, 바꿀 수 있는 방법이 없기 때문에
+
+```java
+@Autowired private final MemberService memberService;
+```
+
+- setter 주입
+  - 한 번 세팅되면 바꿀 이유가 없는데 setter가 public으로 오픈 됨
+
+```java
+@Autowired
+public void setMemberService(MemberService memberService) {
+    this.memberService = memberService;
+}
+```
+
+- 생성자 주입 권장
+- 정형화된 컨트롤러, 서비스, 리포지토리 등은 컴포넌트 스캔을 사용
+  - **정형화되지 않거나, 상황에 따라 구현 클래스 변경해야 하면 스프링 빈으로 등록**
