@@ -30,9 +30,3 @@ OrderService orderService = applicationContext.getBean("orderService", OrderServ
 
 - `BeanFactory`도 있지만,
 - 일반적으로 `ApplicationContext`를 스프링 컨테이너라고 한다.
-
-### 빈 이름
-
-- 메서드 이름 사용
-- `@Bean(name="memberService2")`와 같이 직접 부여 가능
-- 빈 이름은 **항상 다른 이름**을 부여해야한다.
