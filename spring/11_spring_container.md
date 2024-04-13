@@ -54,3 +54,27 @@ OrderService orderService = applicationContext.getBean("orderService", OrderServ
     - 이벤트 발행 구독 모델 지원
   - 편안한 리소스 조회
     - 파일, 클래스패스, 외부 등에서 리소스 편리하게 조회
+
+## XML 설정 사용
+
+- 스프링 부트를 많이 사용하며 XML 기반 설정은 잘 사용하지 않는다.
+- 컴파일 없이 빈 설정 정보를 변경할 수 있다.
+- `GenericXmlApplicationContext`를 사용하면서 `xml` 설정 파일을 넘기면된다.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="memberService" class="hello.core.member.MemberServiceImpl">
+        <constructor-arg name="memberRepository" ref="memberRepository"/>
+    </bean>
+
+    <bean id="memberRepository" class="hello.core.member.MemoryMemberRepository"/>
+</beans>
+```
+
+```java
+ApplicationContext ac = new GenericXmlApplicationContext("appConfig.xml");
+```
