@@ -99,3 +99,68 @@ noBean3 = Optional.empty
 ### `final` 키워드
 
 - 실수에의한 누락을 방지한다.
+
+## 🚨 조회시 빈이 2개 이상인 경우
+
+- `@Autowired`는 타입으로 조회한다.
+  - 선택된 빈이 2개 이상일 때 문제가 발생한다. : `NoUniqueBeanDefinitionException`
+
+### 해결 방법
+
+1. `@Autowired` 필드 명 매칭
+2. `@Qualifier` ➡️ `@Qualifier`끼리 매칭 ➡️ 빈 이름 매칭
+3. `@Primary`
+
+#### `@Autowired` 필드 명 매칭
+
+- 여러 빈이 있으면 필드 이름, 파라미터 이름으로 빈 이름을 추가 매칭한다.
+
+```java
+@Autowired
+public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy rateDiscountPolicy) {
+    this.memberRepository = memberRepository;
+    this.discountPolicy = rateDiscountPolicy;
+}
+```
+
+### `@Qualifier`
+
+- 추가 구분자를 붙여주는 방법
+- 주입시 추가적인 방법 제공, 빈 이름 변경 ❌
+
+```java
+@Component
+@Qualifier("mainDiscountPolicy")
+public class RateDiscountPolicy implements DiscountPolicy {
+    private int discountPercent = 10;
+
+    @Override
+    public int discount(Member member, int price) {
+        if (member.getGrade() == Grade.VIP) {
+            return price * discountPercent / 100;
+        } else {
+            return 0;
+        }
+    }
+}
+```
+
+```java
+// 📁 OrderServiceImpl
+@Autowired
+public OrderServiceImpl(MemberRepository memberRepository, @Qualifier("mainDiscountPolicy") DiscountPolicy discountPolicy) {
+    this.memberRepository = memberRepository;
+    this.discountPolicy = discountPolicy;
+}
+```
+
+1. `@Qualifier`끼리 매칭
+2. 빈 이름 매칭
+3. `NoSuchBeanDefinitionException` 발생
+
+### `@Primary`
+
+- 우선순위 지정
+- `@Primary`가 우선권
+
+> 자세한 것이 우선권을 가진다 ➡️ `@Qualifier`가 우선권이 더 높다
